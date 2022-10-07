@@ -20,7 +20,6 @@ function App() {
         },
         {
           path: '/orders',
-          // loader: () => fetch('products.json') ,
           loader: productsAndCartLoader ,
           element: <Order></Order>
         },

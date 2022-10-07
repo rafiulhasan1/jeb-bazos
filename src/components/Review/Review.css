@@ -1,8 +1,9 @@
 .review-item{
     display: flex;
     border: 1px solid gray;
+    border-radius: 8px;
     width: 471px;
-    margin: 0 auto;
+    margin: 21px auto;
     padding: 8px;
 }
 .review-item-details{
@@ -41,4 +42,5 @@
 }
 .font-icon:hover{
     color: red;
+    cursor: pointer;
 }
